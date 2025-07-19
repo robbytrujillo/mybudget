@@ -39,8 +39,9 @@ header h1 {
 }
 
 .budget-card {
-  background-color: #31509e;
+  background-color: #0f379ba8;
   padding: 1rem;
+  border-radius: 30px;
 }
 
 .budget-name {
