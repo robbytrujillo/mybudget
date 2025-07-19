@@ -35,10 +35,12 @@ header h1 {
 .budgets {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .budget-card {
-  background-color: #f7f7f7;
+  background-color: #31509e;
+  padding: 1rem;
 }
 
 .budget-name {
