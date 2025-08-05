@@ -68,3 +68,10 @@ header h1 {
   border: 2px dashed #d9d9d9;
   color: #d9d9d9;
 }
+
+@media screen and (max-width: 768px) {
+  .budgets {
+    padding: 1rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
